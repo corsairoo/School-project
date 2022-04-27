@@ -1,0 +1,328 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{height: 100%;
+background-color: darkgreen;
+background-image: url("tlooko.jpg");
+background-size: cover;
+}
+body *{
+  font-family: Ubuntu;
+}
+body>div{
+    min-width: 1450px;
+}
+#blok{
+  width: 90%;
+  height: 80%;
+  margin:auto;box-shadow: 0px 0px 89px 61px rgba(0,0,0,1) ;
+  -webkit-box-shadow: 0px 0px 89px 61px rgba(0,0,0,1) ;
+  -moz-box-shadow: 0px 0px 89px 61px rgba(0,0,0,1) ;
+}
+
+#pasek{
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 21%, rgba(0,0,0,0.5) 47%, rgba(26,9,0,0.2) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter:blur(4px);
+}
+#logo{
+  height: 300px;
+}
+#menu{
+  height: 80px;
+}
+.menu>ol{
+  height: 80px;
+  padding: 0px;
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+    backdrop-filter:blur(6px);
+    
+}
+.menu>ol>li{
+
+    background-color: rgba(0,0,0,0.7);
+    border: 3px double #f0cc00;
+    flex-grow: 1;
+}
+.menu>ol>li:hover{
+    background:linear-gradient(to bottom, #BF953F, #B38728, #AA771C);
+    text-shadow: 0px 0px 18px #000000,0px 0px 18px #000000;
+  }
+.menu>ol>li>a{
+  font-family: Indie Flower,cursive;
+  display: block;
+  text-decoration: none;
+  color: 	#f0cc00;
+  font-size: 200%;
+  padding-top: 15px;
+  padding-bottom:  15px;
+}
+
+#menu>ol>li{
+  margin-left: 5px;
+}
+#menu>ol>li:first-child{
+  margin-left: 0px;
+}
+
+#lewa{
+
+flex-grow: 2;
+min-width: 400px;
+background-image: url("bluewood.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: 0px 0px 40px 37px rgba(0,0,0,1) inset;
+-webkit-box-shadow: 0px 0px 40px 37px rgba(0,0,0,1) inset;
+-moz-box-shadow: 0px 0px 40px 37px rgba(0,0,0,1) inset;
+
+box-shadow: -80px 0px 40px -40px rgba(0,0,0,1) inset,80px 0px 40px -40px rgba(0,0,0,1) inset;
+-webkit-box-shadow: -80px 0px 40px -40px rgba(0,0,0,1) inset,80px 0px 40px -40px rgba(0,0,0,1) inset;
+-moz-box-shadow: -80px 0px 40px -40px rgba(0,0,0,1) inset,80px 0px 40px -40px rgba(0,0,0,1) inset;
+
+}
+#lewa>ol{
+  margin: 0;
+  max-height: 600px;
+  min-height: 600px;
+  flex-direction: column;
+}
+#lewa>ol>li{
+
+  margin-top: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: -80px 0px 40px -40px rgba(0,0,0,1) inset,80px 0px 40px -40px rgba(0,0,0,1) inset;
+  -webkit-box-shadow: -80px 0px 40px -40px rgba(0,0,0,1) inset,80px 0px 40px -40px rgba(0,0,0,1) inset;
+  -moz-box-shadow: -80px 0px 40px -40px rgba(0,0,0,1) inset,80px 0px 40px -40px rgba(0,0,0,1) inset;
+}
+#lewa>ol>li::after{
+position: relative;
+	content: url('goldenb.png');
+  display: inline-block;
+   width: 90px;
+   height: 35px;
+   content: "";
+   background: url("goldenb.png") no-repeat 0 0;
+   background-size: 100%;
+
+}
+#lewa>ol>li:first-child{
+  margin-top: 0px;
+}
+
+#lewa>ol>li>a{
+  display: block;
+  font-family: Indie Flower,cursive;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+#main{
+  height: auto;
+  display: flex;
+}
+
+#srodek{
+min-height: 1280px;
+min-width: 700px;
+max-width: 1600px;
+flex-grow: 14;
+backdrop-filter:blur(6px);
+background-color: rgba(0,0,0,0.9);
+color: white;
+font-size: 150%;
+padding: 50px;
+text-align: justify;
+}
+#srodek p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#srodek>.polowa{
+  width: 50%;
+  float: left;
+}
+#srodek h1{
+
+    padding: 5px 0 5px 0;
+    border-bottom: 2px solid gold;
+    border-top: 2px solid gold;
+}
+#srodek h1:first-child{
+    border-top:none;
+    padding: 0 0 5px 0;
+}
+.srodek>img{
+          width: 300px;
+          margin: 10px;
+
+}
+.srodek>img.fr{
+  margin:1%;
+    width: 31%;
+}
+#srodek iframe{
+  margin-left:10%;
+  margin-right: 10%;
+}
+#prawa{
+color: #f0cc00;
+width: 650px;
+background-image: url("darkstone.png");
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 500px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+blockquote {
+
+  font-family: Indie Flower,cursive;
+  align-self: center;
+  text-align: justify;
+  font-style: italic;
+	font-size: 1.5rem;
+	max-width: 538px;
+  min-width: 538px;
+	line-height: 1.4;
+	position: relative;
+	margin: 0;
+	padding: 3.5rem;
+
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #f1efe6;
+	font-size: 6rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+blockquote:before {
+	content: '“';
+	left: -0.2rem;
+	top: -0.6rem;
+}
+
+blockquote:after {
+	content: '”';
+	right: -0.2rem;
+	bottom: 0.6rem;
+}
+
+
+cite {
+  padding-left: 40%;
+  font-size: 1rem;
+	line-height: 3;
+}
+
+footer{
+  height:  50px;
+  color: white;
+  text-align: center;
+
+  background-color:  black;
+}
+ul{
+   list-style-type:none;
+}
+a{
+  font-family: 'Redressed', cursive;
+
+}
+
+#ring{
+  height: 110px;
+  margin: 95px;
+  z-index: 2;
+}
+#runy{
+  filter: invert();
+  height: 250px;
+
+  animation: rotation 5s infinite linear;
+    position: relative;
+    left: -305px;
+    top:-35px;
+}
+#napis{
+  position: relative;
+object-fit: cover
+
+}
+.fl{
+    float: left;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 98%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  background-color: #D4AF37;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  image-resolution: snap;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+  p a:link {
+  text-decoration: none;
+  color: white;
+}
+
+p a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+p a:hover {
+  text-decoration: none;
+  color: #f0cc00;;
+}
+
+p a:active {
+  text-decoration: none;
+  color: white;
+}
+input{
+  min-width: 300px;
+  height: 30px;
+}
+.polowa p{
+  font-size: 90%;
+}
+.polowa h1 {
+  font-size: 120%;
+}
+#but{
+  min-width: 200px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
