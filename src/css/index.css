@@ -1,0 +1,17 @@
+#zdjecia{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+#srodek>img, #zdjecia>img{
+          width: 400px;
+}
+#zdjecia>img{
+  margin:1%;
+  width: 30%;
+}
+#srodek>img{
+    float: left;
+    margin: 10px;
+}
