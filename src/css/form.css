@@ -1,0 +1,114 @@
+
+#srodek{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    font-weight: bold;
+    font-size: 110%;
+    padding:10px 20px;
+    display: block;
+}
+
+#srodek p{
+    font-size: 90%;
+}
+#srodek h1 {
+    font-size: 120%;
+}
+#srodek:last-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+form {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+tr>td:first-child{
+    width: 30px;;
+}
+td{
+    vertical-align: middle;
+    height: 100%;
+}
+td>label{
+    padding-left: 0px !important;
+}
+
+input, textarea{
+    font-size: 70%;
+}
+input{
+    width:500px;
+    min-width: 300px;
+    height: 30px;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    min-width: 30px;
+    width: 30px;
+    padding:0;
+    margin:5px 0px;
+    font-size: 120%;
+    accent-color:#f0cc00;
+}
+textarea{
+    width:580px;
+}
+#blokTabeli{
+    margin-top: 50px;
+    
+}
+
+#save, #update{
+    width: 300px;
+}
+#update{
+    display: none;
+}
+#dane{
+    width: 100%;
+    font-size: 90%;
+    border-collapse: collapse;
+}
+#dane td, #dane th {
+    border:1px solid #f0cc00;
+    padding:5px;
+}
+
+iframe{
+    width:100%;
+    height:600px;
+    padding:2px;
+    border: 5px double #f0cc00;
+}
+td>button{
+    font-size: 90%;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+iframe{
+    margin-top:50px;
+}
+
+@media screen and (min-width: 1300px) and (max-width: 2000px) {
+    iframe{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    #srodek{
+        width: calc(100% - 50px) !important;
+        
+    }
+}
+@media screen and (max-width: 900px) {
+    #blokTabeli{
+        border:1px solid #f0cc00;
+        overflow-x: auto;
+    } 
+}
